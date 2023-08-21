@@ -2,6 +2,7 @@
 
     $testo = $_GET['phrase'];
     $password = $_GET['password'];
+    $newtext = str_replace($password, '***', $testo);
 
 ?>
 
@@ -21,7 +22,7 @@
         <?php
         echo $testo . strlen($testo);
         echo '<br>';
-        echo str_replace('ass', '***', $password);
+        echo str_replace($password, '***', $testo . strlen($newtext));
         echo '<br>';
         echo [1,2,3];
         var_dump([1,2,3]);

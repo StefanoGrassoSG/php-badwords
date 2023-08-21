@@ -15,7 +15,7 @@
 
         </textarea>
 
-        <input type="text" name="password">
+        <input type="text" name="password" placeholder="parola da sostituire">
 
         <input type="submit" value="invia">
     </form>
